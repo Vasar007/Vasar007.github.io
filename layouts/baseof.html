@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+    {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+    <link rel="stylesheet" href="{{ "style.css" | relURL }}">
+</head>
+<body>
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+    <footer>
+        <a href="{{ site.Params.cardURL }}">vasar.dev</a>
+    </footer>
+</body>
+</html>

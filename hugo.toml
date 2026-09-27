@@ -1,0 +1,8 @@
+baseURL = "https://vasar007.github.io/"
+locale = "en"
+title = "Vasily Vasilyev"
+disableKinds = ["404", "rss", "section", "sitemap", "taxonomy", "term"]
+
+[params]
+  cardURL = "https://vasar.dev/"
+  linkedinURL = "https://www.linkedin.com/in/vasar/"

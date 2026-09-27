@@ -1,0 +1,6 @@
+{{ define "main" }}
+<p class="back"><a href="{{ "/" | relURL }}">← {{ site.Title }}</a></p>
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ with .Params.repo }}<p class="repo"><a href="{{ . }}">Source on GitHub</a></p>{{ end }}
+{{ end }}
