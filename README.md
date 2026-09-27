@@ -18,7 +18,7 @@ Every push to `main` runs `.github/workflows/hugo.yml`, which builds the site an
 
 ## Shared content
 
-The bio, the stack list and the project descriptions are shared with the GitHub profile README ([Vasar007](https://github.com/Vasar007/Vasar007)); the links are shared with it and the calling card ([personal-site](https://github.com/Vasar007/personal-site)). Change them together.
+The bio, the stack list and the project descriptions are shared with the GitHub profile README ([Vasar007](https://github.com/Vasar007/Vasar007)); change them together. The footer links to the calling card, vasar.dev (`cardURL` in `hugo.toml`; source: [personal-site](https://github.com/Vasar007/personal-site)); update it if that address changes.
 
 ## Licence
 
