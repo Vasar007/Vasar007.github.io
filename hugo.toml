@@ -7,6 +7,3 @@ disableKinds = ["404", "rss", "section", "sitemap", "taxonomy", "term"]
   cardURL = "https://vasar.dev/"
   linkedinURL = "https://www.linkedin.com/in/vasar/"
   lastUpdated = "2026-09-26"
-
-[markup.goldmark.extensions.typographer]
-  disable = true
