@@ -1,0 +1,9 @@
+# OS and editor noise
+.DS_Store
+.vs/
+.idea/
+
+# Hugo build output
+/public/
+/resources/_gen/
+.hugo_build.lock
