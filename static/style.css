@@ -56,8 +56,7 @@ a:focus-visible {
     margin: 0.4rem 0;
 }
 
-.back,
-.updated {
+.back {
     color: var(--muted);
     font-size: 0.95rem;
 }

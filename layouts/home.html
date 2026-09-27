@@ -11,7 +11,4 @@
     <a href="{{ site.Params.cardURL }}">vasar.dev</a> ·
     <a href="{{ site.Params.linkedinURL }}">LinkedIn</a>
 </p>
-{{ with site.Params.lastUpdated }}
-<p class="updated">Last updated: <time datetime="{{ . }}">{{ time.Format "2 January 2006" . }}</time></p>
-{{ end }}
 {{ end }}

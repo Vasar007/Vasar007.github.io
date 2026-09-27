@@ -6,4 +6,3 @@ disableKinds = ["404", "rss", "section", "sitemap", "taxonomy", "term"]
 [params]
   cardURL = "https://vasar.dev/"
   linkedinURL = "https://www.linkedin.com/in/vasar/"
-  lastUpdated = "2026-09-26"

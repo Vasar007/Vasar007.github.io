@@ -16,8 +16,6 @@ and open <http://localhost:1313/>.
 
 Every push to `main` runs `.github/workflows/hugo.yml`, which builds the site and deploys it to GitHub Pages. The repository's Pages source is "GitHub Actions".
 
-To update the "Last updated" line, change `lastUpdated` in `hugo.toml`.
-
 ## Shared content
 
 The bio, the stack list and the project descriptions are shared with the GitHub profile README ([Vasar007](https://github.com/Vasar007/Vasar007)); the links are shared with it and the calling card ([personal-site](https://github.com/Vasar007/personal-site)). Change them together.
