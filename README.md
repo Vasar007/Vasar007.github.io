@@ -20,7 +20,7 @@ To update the "Last updated" line, change `lastUpdated` in `hugo.toml`.
 
 ## Shared content
 
-The bio, the stack list, the project descriptions and the links are shared with the calling card ([personal-site](https://github.com/Vasar007/personal-site)) and the GitHub profile README ([Vasar007](https://github.com/Vasar007/Vasar007)). Change all three together.
+The bio, the stack list and the project descriptions are shared with the GitHub profile README ([Vasar007](https://github.com/Vasar007/Vasar007)); the links are shared with it and the calling card ([personal-site](https://github.com/Vasar007/personal-site)). Change them together.
 
 ## Licence
 
